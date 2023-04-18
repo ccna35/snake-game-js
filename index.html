@@ -8,14 +8,23 @@
     <title>Snake Game</title>
   </head>
   <body>
-    <div class="container">
-      <div class="snake"></div>
-    </div>
+    <div class="grid"></div>
     <div class="flex">
+      <button class="btn start">Start</button>
       <button class="btn reset">Reset</button>
       <div class="scoreBox flex">
         <p>Score:</p>
         <p class="score">0</p>
+      </div>
+      <select name="level" id="level">
+        <option value="0">Select Level:</option>
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+      </select>
+      <div class="scoreBox flex">
+        <p>Speed:</p>
+        <p class="speed"></p>
       </div>
     </div>
 
